@@ -6,7 +6,7 @@ function LessonCard (){
     return (
         <div className="lesson-card">
             <h3>Lesson {lessonData.lesson_number}</h3>
-            <p>{lessonData.lesson_teacher}</p>
+            <div>{lessonData.lesson_teacher}</div>
             <Button/>
         </div>
         
