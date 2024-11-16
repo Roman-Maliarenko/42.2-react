@@ -1,4 +1,5 @@
-.profile-card-wrapper {
+
+/* .profile-card-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,4 +20,66 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(7, 7, 80);
-  }
+  } */
+
+*{
+    margin: 6px;
+}
+
+body{
+    background-image: url("https://www.crimemuseum.org/wp-content/uploads/2014/05/Brooklyn-Nine-Nine.jpg");
+    
+    
+}
+    
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    background-color: #e89a0ae4;
+    justify-content:center;
+    height: 90px;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nine{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 183, 0);
+    -webkit-text-stroke: 1.5px black; 
+}
+
+.person-data{
+    display: flex;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:  #edab32e1;
+    width: 40%;
+    border-radius: 14px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+.person-data img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-content .person-name{
+    font-weight:bolder;
+    margin-bottom: 4px;
+
+}
+
